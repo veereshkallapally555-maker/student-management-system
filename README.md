@@ -34,12 +34,12 @@ The project focuses on practical Python programming concepts including classes a
 
 ## 📂 Project Structure
 
-student_management_system/
+student-management-system/
 │
-├── student_manager.py
-├── students.json
-├── README.md
-└── .gitignore
+├── student_manager.py    # Main application
+├── README.md              # Project documentation
+├── .gitignore             # Git ignore rules
+└── students.json          # Local data file (created automatically)
 
 
 ---
