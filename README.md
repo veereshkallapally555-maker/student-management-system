@@ -45,12 +45,12 @@ student_management_system/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/python-student-management-system.git
+git clone https://github.com/veereshkallapally555-maker/student-management-system.git
 ```
 ### Navigate to the project
 
 ```Bash
-cd python-student-management-system
+cd student-management-system
 ```
 
 ### Run the application
