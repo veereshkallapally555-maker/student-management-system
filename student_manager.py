@@ -101,11 +101,7 @@ def main():
             except ValueError:
                 print("❌ Invalid input! Student ID must be a number.")
                 continue
-            try:
-                name = input("Enter Name: ").strip()
-            except ValueError:
-                print("❌ Invalid input! Name must be a string.")
-                continue
+            name = input("Enter Name: ").strip()
             try:
                 age = int(input("Enter Age: "))
             except ValueError:
