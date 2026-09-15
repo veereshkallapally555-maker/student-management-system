@@ -85,8 +85,9 @@ Enter Age: 21
 Enter Grade (e.g., A, B, C): A
 
 ✅ Student 'Veeresh Kallapally' added successfully!
-📄 Example students.json
-JSON
+### 📄 Example `students.json`
+
+```json
 [
     {
         "student_id": "101",
