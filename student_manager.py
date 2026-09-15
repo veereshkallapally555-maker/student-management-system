@@ -102,8 +102,13 @@ def main():
                 print("❌ Invalid input! Student ID must be a number.")
                 continue
             name = input("Enter Name: ").strip()
-            try:
-                age = int(input("Enter Age: "))
+           try:
+                age = int(input("Enter Age: ").strip())
+
+                if age <= 0 or age > 100:
+                    print("❌ Invalid age! Please enter an age between 1 and 100.")
+                    continue
+
             except ValueError:
                 print("❌ Invalid input! Age must be a number.")
                 continue
