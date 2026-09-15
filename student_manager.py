@@ -74,7 +74,7 @@ class StudentManager:
     def delete_student(self, student_id):
         """Deletes a student by ID."""
         for student in self.students:
-            if student.student_id == student_id:
+            if student.student_id == student_id.lower():
                 self.students.remove(student)
                 self.save_students()
                 print(f"\n🗑️ Student ID '{student_id}' deleted successfully!")
