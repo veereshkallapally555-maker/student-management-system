@@ -97,7 +97,7 @@ def main():
 
         if choice == "1":
             try:
-                student_id = int(input("Enter Student ID: ").strip())
+                student_id = input("Enter Student ID: ").strip()
             except ValueError:
                 print("❌ Invalid input! Student ID must be a number.")
                 continue
@@ -128,7 +128,7 @@ def main():
 
         elif choice == "4":
             try:
-                student_id = int(input("Enter Student ID to delete: ").strip())
+                student_id = input("Enter Student ID to delete: ").strip()
                 manager.delete_student(student_id)
             except ValueError:
                 print("❌ Invalid input! Student ID must be a number.")
