@@ -102,6 +102,10 @@ def main():
                 print("❌ Invalid input! Student ID must be a number.")
                 continue
             name = input("Enter Name: ").strip()
+
+            if not name:
+                print("❌ Name cannot be empty.")
+                continue
            try:
                 age = int(input("Enter Age: ").strip())
 
