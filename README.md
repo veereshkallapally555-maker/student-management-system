@@ -11,6 +11,7 @@ The project focuses on practical Python programming concepts including classes a
 - ➕ Add new student records with unique IDs
 - 📋 View all stored student records
 - 🔍 Search students by ID or name
+- ✏️ Update existing student records
 - 🗑️ Delete student records by ID
 - 💾 Persistent data storage using JSON
 - 🔄 Automatically saves changes to the data file
@@ -18,6 +19,7 @@ The project focuses on practical Python programming concepts including classes a
 - 🔐 Case-insensitive duplicate ID detection
 - 🖥️ Interactive command-line interface
 - 🧱 Object-Oriented design using Python classes
+- 🔄 Complete CRUD-style student management
 
 ---
 
@@ -67,22 +69,22 @@ python student_manager.py
 
 ## 📸 Sample Output
 
-```
-
+```text
 ====== Student Management System (OOP) ======
 
 1. Add Student
 2. View All Students
 3. Search Student
-4. Delete Student
-5. Exit
+4. Update Student
+5. Delete Student
+6. Exit
 
-Enter Choice (1-5): 1
+Enter Choice (1-6): 1
 
-Enter Student ID: 101
+Enter Student ID: ST001
 Enter Name: Veeresh Kallapally
 Enter Age: 21
-Enter Grade (e.g., A, B, C): A
+Enter Grade (A, B, C, D, F): A
 
 ✅ Student 'Veeresh Kallapally' added successfully!
 ### 📄 Example `students.json`
