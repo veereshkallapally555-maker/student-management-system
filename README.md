@@ -9,13 +9,15 @@ The project focuses on practical Python programming concepts including classes a
 ## ✨ Features
 
 - ➕ Add new student records with unique IDs
-- 📋 View all stored students in a clean format
-- 🔍 Search student records by ID or Name
+- 📋 View all stored student records
+- 🔍 Search students by ID or name
 - 🗑️ Delete student records by ID
-- 💾 Automatic JSON data storage
-- 🔄 Data persistence across application runs
-- ⚠️ Built-in input validation and duplicate ID handling
-- 🖥️ Object-Oriented CLI design
+- 💾 Persistent data storage using JSON
+- 🔄 Automatically saves changes to the data file
+- ✅ Input validation for student ID, name, age, and grade
+- 🔐 Case-insensitive duplicate ID detection
+- 🖥️ Interactive command-line interface
+- 🧱 Object-Oriented design using Python classes
 
 ---
 
