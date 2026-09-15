@@ -117,7 +117,11 @@ def main():
                 print("❌ Invalid input! Age must be a number.")
                 continue
             try:
-                grade = input("Enter Grade (e.g., A, B, C): ").strip().upper()
+                grade = input("Enter Grade (A, B, C, D, F): ").strip().upper()
+
+                if grade not in {"A", "B", "C", "D", "F"}:
+                    print("❌ Invalid grade! Please enter A, B, C, D, or F.")
+                    continue
             except ValueError:
                 print("❌ Invalid input! Grade must be a string.")
                 continue
