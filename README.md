@@ -1,6 +1,8 @@
 # 🎓 Student Management System (OOP)
 
-A modular, command-line Student Management System built with Python using Object-Oriented Programming (OOP) principles. The application encapsulates student records within custom classes and handles data persistence seamlessly using JSON serialization.
+A command-line Student Management System built with Python and Object-Oriented Programming (OOP). The application allows users to add, view, search, and delete student records while storing data persistently in a JSON file.
+
+The project focuses on practical Python programming concepts including classes and objects, data serialization, file handling, exception handling, input validation, and CRUD-style operations.
 
 ---
 
